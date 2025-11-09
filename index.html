@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blais Gomes - Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>💻</text></svg>">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
             <div class="logo">BG</div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#apropos">À propos</a></li>
@@ -23,9 +29,9 @@
     <section id="accueil" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="fade-in">Blais Gomes</h1>
-                <p class="subtitle fade-in-delay">Étudiant BTS SIO - Développeur Web</p>
-                <p class="location fade-in-delay-2">📍 Toulouse, France</p>
+                <h1 class="fade-in">BLAIS GOMES</h1>
+                <logicielles class="subtitle fade-in-delay">Étudiant BTS services informatiques aux organisations<br>option B solutions logicielles et applications métiers (SIO SLAM)</logicielles>
+                <p class="location fade-in-delay-2"><strong>📍 Toulouse, France</strong></p>
                 <div class="cta-buttons fade-in-delay-3">
                     <a href="#contact" class="btn btn-primary">Me Contacter</a>
                     <a href="#apropos" class="btn btn-secondary">En savoir plus</a>
@@ -36,7 +42,7 @@
 
     <section id="apropos" class="section">
         <div class="container">
-            <h2 class="section-title">À propos de moi</h2>
+            <h2 class="section-title">A PROPOS DE MOI</h2>
             <div class="about-content">
                 <p>Je suis étudiant en BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers), avec des expériences en informatique et cybersécurité.</p>
                 <p>Je suis passionné par le développement web, la programmation et la création de projets personnels.</p>
@@ -53,7 +59,7 @@
                 </div>
                 <div class="info-item">
                     <span>🌐</span>
-                    <a href="https://blais-gomes.github.io/Portfolio" target="_blank">blais-gomes.github.io/Portfolio</a>
+                    <a href="https://blaizeuuh.github.io/Portfolio" target="_blank">blaizeuuh.github.io/Portfolio</a>
                 </div>
             </div>
         </div>
@@ -61,7 +67,7 @@
 
     <section id="formation" class="section section-dark">
         <div class="container">
-            <h2 class="section-title">Formations</h2>
+            <h2 class="section-title">FORMATIONS</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
@@ -96,7 +102,7 @@
 
     <section id="experience" class="section">
         <div class="container">
-            <h2 class="section-title">Expériences</h2>
+            <h2 class="section-title">EXPERIENCES</h2>
             <div class="experience-grid">
                 <div class="card">
                     <h3>Stagiaire Développeur</h3>
@@ -104,7 +110,7 @@
                     <p class="period">2025</p>
                     <ul>
                         <li>Développement web</li>
-                        <li>Participation à des projets concrets</li>
+                        <li>Participation à un projet concret</li>
                         <li>Mise en pratique des compétences techniques</li>
                     </ul>
                 </div>
@@ -123,10 +129,10 @@
 
     <section id="competences" class="section section-dark">
         <div class="container">
-            <h2 class="section-title">Compétences Techniques</h2>
+            <h2 class="section-title">COMPETENCES TECHNIQUES</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Développement</h3>
+                    <h3>💻 Développement</h3>
                     <div class="skills">
                         <span class="skill-tag">HTML</span>
                         <span class="skill-tag">CSS</span>
@@ -134,12 +140,18 @@
                         <span class="skill-tag">PHP</span>
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">C#</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>🛠️ Outils</h3>
+                    <div class="skills">
                         <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Git</span>
                         <span class="skill-tag">WordPress</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Bases de données</h3>
+                    <h3>🗄️ Bases de données</h3>
                     <div class="skills">
                         <span class="skill-tag">MySQL</span>
                         <span class="skill-tag">Oracle</span>
@@ -147,7 +159,7 @@
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Réseaux</h3>
+                    <h3>🌐 Réseaux & Systèmes</h3>
                     <div class="skills">
                         <span class="skill-tag">DNS</span>
                         <span class="skill-tag">DHCP</span>
@@ -156,7 +168,7 @@
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Langues</h3>
+                    <h3>🗣️ Langues</h3>
                     <div class="skills">
                         <span class="skill-tag">Français (natif)</span>
                         <span class="skill-tag">Anglais (C1)</span>
@@ -168,7 +180,7 @@
 
     <section id="savoir-faire" class="section">
         <div class="container">
-            <h2 class="section-title">Ce que je sais faire</h2>
+            <h2 class="section-title">CE QUE JE PEUX FAIRE</h2>
             <div class="capabilities">
                 <div class="capability-item">✓ Concevoir et développer des sites web et applications métiers</div>
                 <div class="capability-item">✓ Réaliser des tests et évaluer les résultats</div>
@@ -181,7 +193,7 @@
 
     <section id="interets" class="section section-dark">
         <div class="container">
-            <h2 class="section-title">Centres d'intérêts</h2>
+            <h2 class="section-title">CENTRES D'INTERETS</h2>
             <div class="interests">
                 <div class="interest-card">
                     <span class="icon">💻</span>
@@ -196,7 +208,7 @@
                 <div class="interest-card">
                     <span class="icon">🔐</span>
                     <h3>Technologie</h3>
-                    <p>Cybersécurité et innovations</p>
+                    <p>Cybersécurité & innovations et Hacking</p>
                 </div>
             </div>
         </div>
@@ -204,7 +216,7 @@
 
     <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title">Contactez-moi</h2>
+            <h2 class="section-title">CONTACTEZ-MOI</h2>
             <div class="contact-cta">
                 <p>Je suis actuellement à la recherche d'opportunités de stage.</p>
                 <p>N'hésitez pas à me contacter pour discuter de vos projets.</p>
