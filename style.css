@@ -94,10 +94,10 @@ body::after {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(10, 10, 10, 0.95);
-    backdrop-filter: blur(10px);
+    background-color: transparent;
+    backdrop-filter: none;
     z-index: 1000;
-    border-bottom: 1px solid var(--border);
+    border-bottom: none;
 }
 
 .navbar .container {
